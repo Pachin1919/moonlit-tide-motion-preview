@@ -1,0 +1,6 @@
+/* Independent water-dust layer: the transmission field owns the underwater base. */
+#water-dust-field,#water-dust{opacity:0}
+#water-dust{mix-blend-mode:screen}
+html[data-dust-visible="true"] #water-dust-field{opacity:var(--dust-field-opacity,1)}
+html[data-dust-visible="true"] #water-dust{opacity:var(--dust-opacity,.76)}
+@media (prefers-reduced-motion:reduce){#water-dust-field,#water-dust{transition:none}}
