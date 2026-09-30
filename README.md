@@ -1,6 +1,10 @@
 # Moonlit Tide — motion preview
 
-An English-only, static preview of an interactive ocean visual system. Personal copy and contact details are replaced with `XX` placeholders. The `EN` language control is retained as a visual interface; additional languages are not published in this preview.
+An English-only preview of the PACHIN interactive ocean visual system. Personal copy and contact details are omitted. The `EN` language control is retained as a visual interface; additional languages are not published in this preview.
+
+[View the live demo](https://pachin1919.github.io/moonlit-tide-motion-preview/)
+
+![PACHIN over the moonlit sea](preview/hero-desktop.png)
 
 The page moves from a painted moonlit sea into an interactive underwater particle field, then a dark two-layer exchange scene. It runs without a backend.
 
